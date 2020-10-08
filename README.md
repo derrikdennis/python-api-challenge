@@ -8,6 +8,8 @@ For Findings, please click on the findings section of the table of contents
 - [Findings](#findings)
   - [WeatherPy Results](#weatherpy-results)
     - [Temperature of Cities vs Latitude Thoughts](#temperature-of-cities-vs-latitude-thoughts)
+    - [Humidity of Cities vs Latitude Thoughts](#humidity-of-cities-vs-latitude-thoughts)
+    - [Takeaways from Results of WeatherPy](#takeaways-from-results-of-weatherpy)
   - [VacationPy Results](#vacationpy-results)
   - [Here are the 9 Cities and the closet hotels:](#here-are-the-9-cities-and-the-closet-hotels)
 
@@ -66,15 +68,23 @@ cities with "perfect weather".
 
 Here are the results of the WeatherPy analysis and my thoughts associated with each chart.
 
-![Latitude vs Temp](/output_files/Scatterplots/Lat_vs_Temp_2020-10-08.png)
-
 #### Temperature of Cities vs Latitude Thoughts
+
+![Latitude vs Temp](/output_files/Scatterplots/Lat_vs_Temp_2020-10-08.png)
 
 For this chart along with the following three charts, over 600 cities were selected based off of their proximity to a latitude and longitude number randomly chosen. While each chart represents a different scatterplot, the overall concept is the same (Meteorological Condition vs. Latitude)
 
 I modified the charts from the original sample given to us to hopefully provide a little more color commentary to the data. These will be the focus of our discussion in the next four blurbs.
 
 You will notice that i used the temperature variable rather than the max_temp variable. The max temperature is actually saying: give me all the weather stations for that city. Now tell me, "What is the maximum value for temperature at that time?" Likewise, minimum temperature is calculated the same. I will have more to say on this after wind speed vs latitude scatterplot.
+
+#### Humidity of Cities vs Latitude Thoughts
+
+![Latitude vs Humidity](output_files/Scatterplots/Lat_vs_Humidity_2020-10-08.png)
+
+In the sample charts provided, latitude was the x-axis variable. This runs counter-intuitive to our thinking spatially regardins maps of the world. If we were to look at a map of the world or at a globe or map of the world, chances are we see the equator perpendicular to the y-axis. I flipped the axes so that we can view the results in a similar format.
+
+#### Takeaways from Results of WeatherPy
 
 Here are my three takeaways related to the analyzing of the meteorological data:
 
