@@ -1,46 +1,41 @@
-# 
+# Changing ReadMeFile
+
 ## WeatherPy Results
 
+As we continue to learn about fundamental concepts related to API processesing with Python, we have asked a genearl question, "What does the weather do as you get closer to the equator?"
 
- As we continue to learn about fundamental concepts related to API processesing with Python, we have asked a genearl question, "What does the weather do as you get closer to the equator?"
+Here are my three takeaways related to the analyzing of the meteorological data:
 
- Here are my three takeaways related to the analyzing of the meteorological data:
+- There is a direct correlation between temperature and latitude.  
+   - In the Northern Hemisphere, for every degree of latitude we add, we take away a degree of temperature (y = -1.0x + 108.22).  
+   - In the Southern Hemishpere, the slope is a little less (y = -0.73x + 68.12)
+- Looking at the linear regression equations for the Northern versus Southern Hemisphers, diverging or flat slopes for both the cloudiness (%) and wind speed indicate that there is no relationship between the two respective variables and latitude.
 
-
- - There is a direct correlation between temperature and latitude.  
-       - In the Northern Hemisphere, for every degree of latitude we add, we take away a degree of temperature (y = -1.0x + 108.22).  
-       - In the Southern Hemishpere, the slope is a little less (y = -0.73x + 68.12)
-       
- - Looking at the linear regression equations for the Northern versus Southern Hemisphers, diverging or flat slopes for both the cloudiness (%)  and wind speed indicate that there is no relationship between the two respective variables and latitude.
-
-
- - In regards to the analysis of humidity versus latitude, while the slopes of the Northern and Southern Hemisphere linear regression equations are somewhat similar (0.13 vs 0.00),  I would recommend additional data to be pulled to further the veracity of any claim made.
-
-
-
+- In regards to the analysis of humidity versus latitude, while the slopes of the Northern and Southern Hemisphere linear regression equations are somewhat similar (0.13 vs 0.00), I would recommend additional data to be pulled to further the veracity of any claim made.
 
 ##VacationPy Results
 
- In the VacationPy file, we determined what cities might be ideal for us to go on vacation (Please suspend your knowledge regarding current conditions related to travel due to the Covid-19 Pandemic)
+In the VacationPy file, we determined what cities might be ideal for us to go on vacation (Please suspend your knowledge regarding current conditions related to travel due to the Covid-19 Pandemic)
 
- This analysis selected 9 cities that would be ideal to visit based on a number of meteorological conditions:
-  - The temperature needed to be between 70 and 80 degrees Fahrenheit.
-  - It was a perfectly clear day (0% cloudiness)
-  - The wind speed was less than 10 miles per hour.
+This analysis selected 9 cities that would be ideal to visit based on a number of meteorological conditions:
 
- We took this list and booked a hotel for you!  The hotel that has been selected for you is based of identifying the closest hotel to the city using the Google Maps Places API.
+- The temperature needed to be between 70 and 80 degrees Fahrenheit.
+- It was a perfectly clear day (0% cloudiness)
+- The wind speed was less than 10 miles per hour.
 
- ### Here are the 9 Cities and the closet hotels:
+We took this list and booked a hotel for you! The hotel that has been selected for you is based of identifying the closest hotel to the city using the Google Maps Places API.
 
- |     | City              | Country   |   Latitude |   Longitude | Hotel Name                      | Hotel Address                                                  |
-|----:|:------------------|:----------|-----------:|------------:|:--------------------------------|:---------------------------------------------------------------|
-| 116 | Noumea            | NC        |     -22.28 |      166.46 | Nouvata                         | 123 Promenade Roger Laroque, Anse Vata, Nouméa                 |
-| 346 | São João da Barra | BR        |     -21.64 |      -41.05 | Pousada Kactus                  | R. Q - Chapéu do Sol, São João da Barra                        |
-| 469 | Kumluca           | TR        |      36.37 |       30.29 | TurkuazKöy                      | Orta Mah. Barbaros Caddesi No:119 Finke 1, Finike              |
-| 472 | Tartous           | SY        |      34.89 |       35.89 | Shahin Tower Hotel              | Tartus‎                                                         |
-| 501 | Tripoli           | LY        |      32.88 |       13.19 | Radisson Blu Al Mahary Hotel    | Al Fatah St, The Corniche, Tripoli                             |
-| 550 | Mont-Dore         | NC        |     -22.28 |      166.58 | Hotel Restaurant le Vallon Dore | Mont-Dore                                                      |
-| 562 | Caborca           | MX        |      30.58 |     -111.1  | Motel Elba                      | Blvrd Guillermo Padrés 201, La Loma, Santa Ana                 |
-| 581 | Florianópolis     | BR        |     -27.61 |      -48.5  | Majestic Palace Hotel           | Av. Jorn. Rubéns de Arruda Ramos, 2746 - Centro, Florianópolis |
+### Here are the 9 Cities and the closet hotels:
+
+|     | City              | Country | Latitude | Longitude | Hotel Name                      | Hotel Address                                                  |
+| --: | :---------------- | :------ | -------: | --------: | :------------------------------ | :------------------------------------------------------------- |
+| 116 | Noumea            | NC      |   -22.28 |    166.46 | Nouvata                         | 123 Promenade Roger Laroque, Anse Vata, Nouméa                 |
+| 346 | São João da Barra | BR      |   -21.64 |    -41.05 | Pousada Kactus                  | R. Q - Chapéu do Sol, São João da Barra                        |
+| 469 | Kumluca           | TR      |    36.37 |     30.29 | TurkuazKöy                      | Orta Mah. Barbaros Caddesi No:119 Finke 1, Finike              |
+| 472 | Tartous           | SY      |    34.89 |     35.89 | Shahin Tower Hotel              | Tartus‎                                                        |
+| 501 | Tripoli           | LY      |    32.88 |     13.19 | Radisson Blu Al Mahary Hotel    | Al Fatah St, The Corniche, Tripoli                             |
+| 550 | Mont-Dore         | NC      |   -22.28 |    166.58 | Hotel Restaurant le Vallon Dore | Mont-Dore                                                      |
+| 562 | Caborca           | MX      |    30.58 |    -111.1 | Motel Elba                      | Blvrd Guillermo Padrés 201, La Loma, Santa Ana                 |
+| 581 | Florianópolis     | BR      |   -27.61 |     -48.5 | Majestic Palace Hotel           | Av. Jorn. Rubéns de Arruda Ramos, 2746 - Centro, Florianópolis |
 
 And yes, Tripoli, Libya is an ideal city to visit!
