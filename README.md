@@ -13,6 +13,7 @@ For Findings, please click on the findings section of the table of contents
     - [Wind Speed of Cities vs Latitude Thoughts](#wind-speed-of-cities-vs-latitude-thoughts)
     - [Linear Regression - Temperature by Hemisphere](#linear-regression---temperature-by-hemisphere)
     - [Linear Regression - Humidity by Hemisphere](#linear-regression---humidity-by-hemisphere)
+    - [Linear Regression - Cloudiness by Hemisphere](#linear-regression---cloudiness-by-hemisphere)
     - [Takeaways from Results of WeatherPy](#takeaways-from-results-of-weatherpy)
   - [VacationPy Results](#vacationpy-results)
   - [Here are the 9 Cities and the closet hotels:](#here-are-the-9-cities-and-the-closet-hotels)
@@ -130,6 +131,13 @@ There appears to be a direct correlation between temperature and the latitude of
 ![Humidity vs Latitude Southern Hemisphere](<output_files/Linear_Regression_Plots/Hum_vs_LAT(sHEMI)_2020-10-08.png>)
 
 There is what seems to be a small correlaton between Humidity and the Northern Hemisphere. But because there is virtually no correlation in the Southern Hemipshere, I would say we need additional analysis to determine if it exists. My alternative hypothesis is that humidity is more associated with ocean temperatures along with the wind that drive weather patterns and where they come from.
+
+#### Linear Regression - Cloudiness by Hemisphere
+
+![Cloudiness vs Latitude Northern Hemisphere](<output_files/Linear_Regression_Plots/Cloud_LAT(nHEMI)_2020-10-08.png>)
+![Cloudiness vs Latitude Southern Hemishpere](<output_files/Linear_Regression_Plots/Cloud_LAT(sHEMI)_2020-10-08.png>)
+
+This is a challenging analysis to perform. I would even venture to say that it was not set up in a way to make any conclusions. Cloudiness is more of a subjective variable based on a meterologist's observations. Additionally, the varible is rounded to the near tenth(%), which does not give great scatter.
 
 #### Takeaways from Results of WeatherPy
 
