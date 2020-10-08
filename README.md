@@ -142,8 +142,8 @@ This is a challenging analysis to perform. I would even venture to say that it w
 
 #### Linear Regression - Wind Speed by Hemisphere
 
-![Wind Speed vs. Latitude Northern Hemisphere](<output_files/Linear_Regression_Plots/Cloud_LAT(nHEMI)_2020-10-08.png>)
-![Wind Speed vs. Latitude Southern Hemisphere](<output_files/Linear_Regression_Plots/Cloud_LAT(sHEMI)_2020-10-08.png>)
+![Wind Speed vs. Latitude Northern Hemisphere](<output_files/Linear_Regression_Plots/WindSpeed_LAT(nHEMI)_2020-10-08.png>)
+![Wind Speed vs. Latitude Southern Hemisphere](<output_files/Linear_Regression_Plots/WindSpeed_LAT(sHEMI)_2020-10-08.png>)
 
 In terms of these graphs, wind speed has a negative correlation with Latitude in the Northern Hemisphere and a positive correlation in the Southern. We saw a roughly similar situation happening with our humidity vs Latitude linear regressions. Therefore we probably need to run additional data to determine if there is that correlation pans out. However, my guess is that it two separate data point with little to no correlation.
 
