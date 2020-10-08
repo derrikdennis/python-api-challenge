@@ -9,6 +9,7 @@ For Findings, please click on the findings section of the table of contents
   - [WeatherPy Results](#weatherpy-results)
     - [Temperature of Cities vs Latitude Thoughts](#temperature-of-cities-vs-latitude-thoughts)
     - [Humidity of Cities vs Latitude Thoughts](#humidity-of-cities-vs-latitude-thoughts)
+    - [Cloudiness of Cities vs Latitude Thoughts](#cloudiness-of-cities-vs-latitude-thoughts)
     - [Takeaways from Results of WeatherPy](#takeaways-from-results-of-weatherpy)
   - [VacationPy Results](#vacationpy-results)
   - [Here are the 9 Cities and the closet hotels:](#here-are-the-9-cities-and-the-closet-hotels)
@@ -83,6 +84,17 @@ You will notice that i used the temperature variable rather than the max_temp va
 ![Latitude vs Humidity](output_files/Scatterplots/Lat_vs_Humidity_2020-10-08.png)
 
 In the sample charts provided, latitude was the x-axis variable. This runs counter-intuitive to our thinking spatially regardins maps of the world. If we were to look at a map of the world or at a globe or map of the world, chances are we see the equator perpendicular to the y-axis. I flipped the axes so that we can view the results in a similar format.
+
+#### Cloudiness of Cities vs Latitude Thoughts
+
+![Cloudiness vs City](output_files/Scatterplots/Lat_vs_Cloud_2020-10-08.png)
+
+In each of the four charts, I enhanced the way the data is portrayed by using colormaps. In matplotlib, one of my favorite ways to bring a little more color commentary (no pun intended) to a chart is to use colormaps. There are a wide variety of colormaps avialable. Each colormap I chose was relaetd to the data at hand.
+
+- For the temperature scatterplot, I chose the colormap "coolwarm". This allows colders temperatures in blue along with warmer temperatures in red.
+- For the humidity scatterplot, I chose the colormap "Wistia". This colormap is yelllow to orange which are colors often associate with warmth. While humidity is certainly not the primary factor of warmth, it certainly a secondary factor as anyone living in Austin in June can attest.
+- For the cloudiness scatterplot, I chose the colormap "bone". Bone, in reverse, allows us to have a gradient which gives us almost translucent data points for little cloud cover to opaque black data points for total cloud coveage.
+- For the wind speed scatterplot, I chose the colormap "winter". Winter typically has bone-jarring winds with strong cold fronts from either Polar or Arctic vortices.
 
 #### Takeaways from Results of WeatherPy
 
