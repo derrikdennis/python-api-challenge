@@ -2,6 +2,8 @@
 
 ## Background
 
+### WeatherPy - An analysis of weather data as it related to latitude
+
 In this assignment I was to look at data regarding weather and see if the city location's latitude and longitude had any impact on the weather it faced.
 
 1. More specifically, the first objective's foal was to determine if four different weather phenonemon - temperature, humidity, cloudiness, and wind speed - were directly related to how close they were to the equator.
