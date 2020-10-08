@@ -19,9 +19,9 @@ In this assignment I was to look at data regarding weather and see if the city l
    - Northern Hemisphere - Wind Speed (mph) vs. Latitude
    - Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-After each pair of plaots, I will explain what the linear regression is modelling such as any relationships and any other analyis I might have.
+3. After each pair of plots, I will explain what the linear regression is modelling such as any relationships and any other analyis I might have.
 
-3.  Considerations for this analysis included the forollowing:
+4. Considerations for this analysis included the forollowing:
 
 - Randomly selecting at least 500 unique cities based on latitiude and longtiude.
 - Performing a weather check in each of the cities using a series of sucessive API calls.
