@@ -11,7 +11,8 @@ For Findings, please click on the findings section of the table of contents
     - [Humidity of Cities vs Latitude Thoughts](#humidity-of-cities-vs-latitude-thoughts)
     - [Cloudiness of Cities vs Latitude Thoughts](#cloudiness-of-cities-vs-latitude-thoughts)
     - [Wind Speed of Cities vs Latitude Thoughts](#wind-speed-of-cities-vs-latitude-thoughts)
-    - [Linear regression plots](#linear-regression-plots)
+    - [Linear Regression - Temperature by Hemisphere](#linear-regression---temperature-by-hemisphere)
+    - [Linear Regression - Humidity by Hemisphere](#linear-regression---humidity-by-hemisphere)
     - [Takeaways from Results of WeatherPy](#takeaways-from-results-of-weatherpy)
   - [VacationPy Results](#vacationpy-results)
   - [Here are the 9 Cities and the closet hotels:](#here-are-the-9-cities-and-the-closet-hotels)
@@ -116,10 +117,19 @@ On this day at this time, you might see the following conditions:
 - Maximum Temperature - 80 degrees
 - Minimum Temperature - 52 degrees
 
-#### Linear regression plots
+#### Linear Regression - Temperature by Hemisphere
 
 ![Temp vs Latitude Northern Hemisphere](<output_files/Linear_Regression_Plots/Temp_vs_LAT(nHEMI)_2020-10-08.png>)
 ![Temp vs Latitude Southern Hemisphere](<output_files/Linear_Regression_Plots/Temp_vs_LAT(sHEMI)_2020-10-08.png>)
+
+There appears to be a direct correlation between temperature and the latitude of the city, especially when it came to the Northern Hemisphere where the slope is -1. The slope is a little bit less in the southern hemisphere (-0.73) \ Perhaps the differnce can be attributed toa lot less land, and subsequently less cities in the Southern Hemisphere. Additioanlly except for near Tierra del Fuego, Antartica is an ocean away from any other land. In other words there are basically open seas past 55 degrees South, which does not alllow perhaps closer relationship between Temperature and latitude.
+
+#### Linear Regression - Humidity by Hemisphere
+
+![Humidity vs Latitude Northern Hemisphere](<output_files/Linear_Regression_Plots/Hum_vs_LAT(nHEMI)_2020-10-08.png>)
+![Humidity vs Latitude Southern Hemisphere](<output_files/Linear_Regression_Plots/Hum_vs_LAT(sHEMI)_2020-10-08.png>)
+
+There is what seems to be a small correlaton between Humidity and the Northern Hemisphere. But because there is virtually no correlation in the Southern Hemipshere, I would say we need additional analysis to determine if it exists. My alternative hypothesis is that humidity is more associated with ocean temperatures along with the wind that drive weather patterns and where they come from.
 
 #### Takeaways from Results of WeatherPy
 
