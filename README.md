@@ -21,12 +21,33 @@ In this assignment I was to look at data regarding weather and see if the city l
 
 3. After each pair of plots, I will explain what the linear regression is modelling such as any relationships and any other analyis I might have.
 
-4. Considerations for this analysis included the forollowing:
+4. Considerations for this analysis included the following:
 
 - Randomly selecting at least 500 unique cities based on latitiude and longtiude.
 - Performing a weather check in each of the cities using a series of sucessive API calls.
-- Inluding a print log of each city as it's being processed with the city name and number
-- Saving a CSV of retrieved data and and PNG of each scatter plot.
+- Including a print log of each city as it's being processed with the city name and number
+- Saving a CSV of retrieved data and and PNG image of each scatter plot.
+
+### VacationPy - Planning future vacations based off of the weather data.
+
+In the next art of the assignment, I took the weather data from above and used jupyter-gmaps and the Google Places API to identify
+cities with "perfect weather".
+
+1.  I created a heat map that displayed the humidity for every city from Pari I of the assignment.
+
+2.  I narrowed down the DataFrame to find my ideal weather conditions. These conditions were:
+
+- A maximum temperature lower than 80 degrees but higher than 70 degrees.
+- A wind speed less than 10 mph
+- Zero Cloudiness
+
+3.  This brought down the number of cities to a reasonable number.
+4.  Take these cities and plot the first hotel within 5000 meters of the city.
+5.  This plot would be on top of the hjumidity heatmap with each pin containing:
+
+- Hotel Name
+- City
+- Country
 
 ## Findings
 
