@@ -1,4 +1,14 @@
-# What's the Weather Like? - Python API Homework
+# What's the Weather Like? - Python API Homework <!-- omit in toc -->
+
+For Findings, please click on the findings section of the table of contents
+
+- [Background](#background)
+  - [WeatherPy - An analysis of weather data as it related to latitude](#weatherpy---an-analysis-of-weather-data-as-it-related-to-latitude)
+  - [VacationPy - Planning future vacations based off of the weather data.](#vacationpy---planning-future-vacations-based-off-of-the-weather-data)
+- [Findings](#findings)
+  - [WeatherPy Results](#weatherpy-results)
+  - [VacationPy Results](#vacationpy-results)
+  - [Here are the 9 Cities and the closet hotels:](#here-are-the-9-cities-and-the-closet-hotels)
 
 ## Background
 
