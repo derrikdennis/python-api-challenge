@@ -10,6 +10,7 @@ For Findings, please click on the findings section of the table of contents
     - [Temperature of Cities vs Latitude Thoughts](#temperature-of-cities-vs-latitude-thoughts)
     - [Humidity of Cities vs Latitude Thoughts](#humidity-of-cities-vs-latitude-thoughts)
     - [Cloudiness of Cities vs Latitude Thoughts](#cloudiness-of-cities-vs-latitude-thoughts)
+    - [Wind Speed of Cities vs Latitude Thoughts](#wind-speed-of-cities-vs-latitude-thoughts)
     - [Takeaways from Results of WeatherPy](#takeaways-from-results-of-weatherpy)
   - [VacationPy Results](#vacationpy-results)
   - [Here are the 9 Cities and the closet hotels:](#here-are-the-9-cities-and-the-closet-hotels)
@@ -87,7 +88,7 @@ In the sample charts provided, latitude was the x-axis variable. This runs count
 
 #### Cloudiness of Cities vs Latitude Thoughts
 
-![Cloudiness vs City](output_files/Scatterplots/Lat_vs_Cloud_2020-10-08.png)
+![Latitude vs Cloudiness](output_files/Scatterplots/Lat_vs_Cloud_2020-10-08.png)
 
 In each of the four charts, I enhanced the way the data is portrayed by using colormaps. In matplotlib, one of my favorite ways to bring a little more color commentary (no pun intended) to a chart is to use colormaps. There are a wide variety of colormaps avialable. Each colormap I chose was relaetd to the data at hand.
 
@@ -95,6 +96,24 @@ In each of the four charts, I enhanced the way the data is portrayed by using co
 - For the humidity scatterplot, I chose the colormap "Wistia". This colormap is yelllow to orange which are colors often associate with warmth. While humidity is certainly not the primary factor of warmth, it certainly a secondary factor as anyone living in Austin in June can attest.
 - For the cloudiness scatterplot, I chose the colormap "bone". Bone, in reverse, allows us to have a gradient which gives us almost translucent data points for little cloud cover to opaque black data points for total cloud coveage.
 - For the wind speed scatterplot, I chose the colormap "winter". Winter typically has bone-jarring winds with strong cold fronts from either Polar or Arctic vortices.
+
+#### Wind Speed of Cities vs Latitude Thoughts
+
+![Latitude vs Wind Speed](output_files/Scatterplots/Lat_vs_WSpeed_2020-10-08.png)
+
+So why are there minimum and maximum temperature data points provided for each city, especially if they aren't the daily minimum and mmaximum temperatures?
+Many coastal cities with hilly basins are subject a condition called microclimates. San Francisco is a prime example of this occurring. Mark Twain never said it, but there is a quote that states, "The coldest winter I ever spent was a summer in San Francisco."
+On a typical Wednesday in June at 3PM, depending on where you were at in the city, the temperature you would feel could wildly different.
+
+- You could be at Oracle Park in China Basin enjoying a Giants game during the day. It's sunny, 80 degrees.
+- You could be in Glen Park shielded by the straight line coastal wind, but experience a temperature in the 60s.
+- Or you could be visiting the Sutro Bath ruins on the Pacific Coast. Temperature there? 52 degrees.
+
+On this day at this time, you might see the following conditions:
+
+- Temperature - 64 degrees
+- Maximum Temperature - 80 degrees
+- Minimum Temperature - 52 degrees
 
 #### Takeaways from Results of WeatherPy
 
