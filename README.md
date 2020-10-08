@@ -47,17 +47,17 @@ cities with "perfect weather".
 
 2.  I narrowed down the DataFrame to find my ideal weather conditions. These conditions were:
 
-- A maximum temperature lower than 80 degrees but higher than 70 degrees.
-- A wind speed less than 10 mph
-- Zero Cloudiness
+    - A maximum temperature lower than 80 degrees but higher than 70 degrees.
+    - A wind speed less than 10 mph
+    - Zero Cloudiness
 
 3.  This brought down the number of cities to a reasonable number.
 4.  Take these cities and plot the first hotel within 5000 meters of the city.
 5.  This plot would be on top of the hjumidity heatmap with each pin containing:
 
-- Hotel Name
-- City
-- Country
+    - Hotel Name
+    - City
+    - Country
 
 ## Findings
 
