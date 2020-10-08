@@ -11,6 +11,7 @@ For Findings, please click on the findings section of the table of contents
     - [Humidity of Cities vs Latitude Thoughts](#humidity-of-cities-vs-latitude-thoughts)
     - [Cloudiness of Cities vs Latitude Thoughts](#cloudiness-of-cities-vs-latitude-thoughts)
     - [Wind Speed of Cities vs Latitude Thoughts](#wind-speed-of-cities-vs-latitude-thoughts)
+    - [Linear regression plots](#linear-regression-plots)
     - [Takeaways from Results of WeatherPy](#takeaways-from-results-of-weatherpy)
   - [VacationPy Results](#vacationpy-results)
   - [Here are the 9 Cities and the closet hotels:](#here-are-the-9-cities-and-the-closet-hotels)
@@ -114,6 +115,11 @@ On this day at this time, you might see the following conditions:
 - Temperature - 64 degrees
 - Maximum Temperature - 80 degrees
 - Minimum Temperature - 52 degrees
+
+#### Linear regression plots
+
+![Temp vs Latitude Northern Hemisphere](<output_files/Linear_Regression_Plots/Temp_vs_LAT(nHEMI)_2020-10-08.png>)
+![Temp vs Latitude Southern Hemisphere](<output_files/Linear_Regression_Plots/Temp_vs_LAT(sHEMI)_2020-10-08.png>)
 
 #### Takeaways from Results of WeatherPy
 
