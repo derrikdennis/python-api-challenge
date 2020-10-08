@@ -19,7 +19,18 @@ In this assignment I was to look at data regarding weather and see if the city l
    - Northern Hemisphere - Wind Speed (mph) vs. Latitude
    - Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-## WeatherPy Results
+After each pair of plaots, I will explain what the linear regression is modelling such as any relationships and any other analyis I might have.
+
+3.  Considerations for this analysis included the forollowing:
+
+- Randomly selecting at least 500 unique cities based on latitiude and longtiude.
+- Performing a weather check in each of the cities using a series of sucessive API calls.
+- Inluding a print log of each city as it's being processed with the city name and number
+- Saving a CSV of retrieved data and and PNG of each scatter plot.
+
+## Findings
+
+### WeatherPy Results
 
 As we continue to learn about fundamental concepts related to API processesing with Python, we have asked a genearl question, "What does the weather do as you get closer to the equator?"
 
@@ -32,7 +43,7 @@ Here are my three takeaways related to the analyzing of the meteorological data:
 
 - In regards to the analysis of humidity versus latitude, while the slopes of the Northern and Southern Hemisphere linear regression equations are somewhat similar (0.13 vs 0.00), I would recommend additional data to be pulled to further the veracity of any claim made.
 
-##VacationPy Results
+### VacationPy Results
 
 In the VacationPy file, we determined what cities might be ideal for us to go on vacation (Please suspend your knowledge regarding current conditions related to travel due to the Covid-19 Pandemic)
 
