@@ -2,6 +2,7 @@
 
 For Findings, please click on the findings section of the table of contents
 
+## Table of Contents <!-- omit in toc -->
 - [Background](#background)
   - [WeatherPy - An analysis of weather data as it related to latitude](#weatherpy---an-analysis-of-weather-data-as-it-related-to-latitude)
   - [VacationPy - Planning future vacations based off of the weather data.](#vacationpy---planning-future-vacations-based-off-of-the-weather-data)
