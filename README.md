@@ -1,4 +1,4 @@
-# What's the Weather Like? - Python API Homework <!-- omit in toc -->
+# What's the Weather Like? - Python API Challenge <!-- omit in toc -->
 
 For Findings, please click on the findings section of the table of contents
 
